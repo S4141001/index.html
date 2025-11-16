@@ -1,0 +1,400 @@
+body{
+    background-image: url(background.png);
+     max-width: 1200px;
+     margin: 0 auto;
+     overflow-x: hidden; 
+     
+     
+}
+#one{
+    margin-top: 400px;
+    margin-left: 250px;
+    position:relative;
+    filter: drop-shadow(5px 10px 5px rgb(22, 22, 54));
+    z-index: 10;
+    
+}
+#two{
+    margin-top: -1300px;
+    margin-left: 40px;
+    position: absolute;
+    z-index: 10;
+    
+}
+
+#three{
+    margin-top: -1200px;;
+    margin-left: 80px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 5px rgb(22, 22, 54));
+    z-index: 10;
+
+}
+#four{
+    position: absolute;
+    margin-top: -1600px;
+    margin-left: -290px;
+    z-index: 3;
+    animation-name: heartanimation;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+
+
+}
+@keyframes heartanimation {
+    0%{transform: scaleX(1);}
+    
+    50%{transform: scaleX(1.3);}
+    
+    100%{transform: scaleX(1);}
+}
+
+
+
+#five{
+    
+    margin-top: 700px;
+    position: relative;
+    margin-left: 400px;
+    z-index: 10;
+    
+}
+
+
+#six{
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: -1450px;
+    margin-left: 90px;
+   
+    transform: rotate(12deg);
+    z-index: 2;
+    animation-name: womananimation;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+
+
+}
+@keyframes womananimation {
+    0%{transform: rotate(0);}
+    
+    50%{transform: rotate(2deg);}
+    
+    100%{transform: rotate(0);}
+}
+
+
+#seven{
+    position: relative;
+    margin-left: 70px;
+    margin-top: -1300px;
+    z-index: 3;
+    transform: rotate(-14deg);
+    animation-name: mananimation;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+
+
+}
+@keyframes mananimation {
+    0%{transform: rotate(0) }
+    
+    50%{transform: rotate(-7deg) }
+    
+    100%{transform: rotate(0) }
+}
+
+
+
+ 
+#additional{
+    position: relative;
+    margin-left: 500px;
+    margin-top: -900px;
+    z-index: 1;
+
+}
+#p1{
+    font-size: 140px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: 400px;
+   margin-top: -1560px;
+   letter-spacing: 5px;
+   position: absolute;
+   z-index: 10;
+   
+}
+#p1 {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+
+#p1:hover {
+  color: rgb(255, 0, 13);
+}
+#p2 {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+
+#p2:hover {
+  color: rgb(255, 0, 13);
+}
+
+@import url('https://fonts.cdnfonts.com/css/slave-only-dreams-to-be-king');
+#p2{
+    font-size: 125px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: 300px;
+   margin-top: 100px;
+   letter-spacing: 5px;
+   position: relative;
+   
+}
+#p3{
+    font-size: 130px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: 300px;
+   margin-top: 100px;
+   position: absolute;
+   margin-bottom: -100px;
+  
+   letter-spacing: 5px
+   
+   
+}
+#p3 {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s ease;
+}
+
+#p3:hover {
+  color: rgb(255, 0, 8);
+}
+#p4{
+    font-size: 140px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: -40px;
+   margin-top: 600px;
+   position: static;
+  
+   letter-spacing: 5px
+}
+
+#p5{
+    font-size: 110px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: 100px;
+   margin-top: 100px;
+   
+   position: absolute;
+   letter-spacing: 5px;
+}
+#p6{
+    font-size: 140px;
+    white-space: pre-line;
+   font-family: 'Slave only dreams to be king', sans-serif;
+   margin-left: 300px;
+   margin-top: -300px;
+   position: absolute;
+   
+  
+   letter-spacing: 5px;}
+#eight{
+    position: relative;
+    margin-left: 300px;
+    margin-top: -100px;
+    z-index: 10;
+    animation-name: headanimation;
+    animation-timeline: view();
+    animation-range: entry 40;
+
+}
+@keyframes headanimation {
+    from{
+        left: 0px;
+        bottom: 0px;
+        transform: rotate(0);
+    }
+    to {
+        left: 350px;
+        bottom: 500px;
+        transform: rotate(40deg);
+
+    }
+}
+
+  
+#nine{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: -850px;
+    z-index: 10;
+}
+#ten{
+    margin-left: 540px;
+    margin-top: -800px;
+    z-index: 5;
+    position: relative;
+    animation-name: mindanimation;
+    animation-timeline: view();
+    animation-range: entry 10;
+
+}
+@keyframes mindanimation {
+    from{
+        bottom:0px;
+        transform: scale(1);
+    }
+    to{
+        bottom: 20px;
+        transform: scale(1.8);
+    }
+    
+}
+#eleven{
+    position: static;
+    margin-left: 800px;
+    margin-top: -700px;
+    z-index: 6;
+    animation-name: confettianimation;
+    animation-timeline: view();
+    animation-range: entry 10;
+
+
+
+}
+@keyframes confettianimation{
+    from{
+        bottom:0px;
+        transform: scale(1);
+        
+        
+        
+    }
+    to {
+        bottom: 400px;
+        transform: scale(4);
+        
+        
+        
+    }
+
+
+} 
+
+
+#twelve{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -100px;
+    z-index: 7;
+    border-radius: 1%;
+    
+}
+#twelve :hover{
+    transform: scale(1.1);
+    top: 20px;
+    left: 20px;
+}
+#thirdteen{
+    position:absolute;
+    margin-top: -250px;
+    margin-left: -240px;
+    z-index: 6;
+    border-radius: 10px;
+
+}
+#thirdteen :hover{
+    transform: scale(1.1);
+    top: 20px;
+    left: -20px;}
+
+#add{
+    position: relative;
+    margin-left: 150px;
+    margin-top: -420px;
+    z-index: 1;
+      animation-name: background2animation;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+
+
+}
+@keyframes background2animation {
+    0%{left:0px;top:0px;}
+    25%{left:20px;top:20px;}
+    50%{left:0px;top:-25px;}
+    75%{left:-70px;top:20px;}
+    100%{left:0px;top:0px;}
+}
+#fourteen{
+    position: absolute;
+    margin-top:-400px;
+    z-index: 1;
+    margin-left: -200px;
+    
+}
+#fifteen{
+    position: absolute;
+    margin-top: -550px;
+    z-index: 2;
+    margin-left: -130px;
+}
+#sixteen{
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -100px;
+    z-index: 3;
+}
+#seventeen{
+    position: absolute;
+    margin-left: -270px;
+    margin-top: -260px;
+    z-index: 10;
+}
+#eighteen{
+    z-index: 4;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 300px;
+
+}
+#nineteen{
+    z-index: 4;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 350px;
+}
+#twenty{
+    z-index: 3;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 182px;
+    animation-name: background4animation;
+    animation-timeline: view();
+    animation-range: entry 30;
+    
+
+
+}
+@keyframes background4animation {
+
+    from{
+        
+        transform: scale(0.4);
+    }
+    to {
+        
+        transform: scale(2);      
+    }
+}
+
+
+    
+
